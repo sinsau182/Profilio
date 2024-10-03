@@ -58,12 +58,12 @@ const about = () => {
                         I have a strong foundation in React.js and web development, and I am always looking to learn new technologies and frameworks.
                     </p>
                     <p className='my-4 font-medium'>
-                        I have a Bachelor's degree in Computer Science and Engineering from the National Institute of Technology, Kurukshetra. 
+                        I have a Bachelors degree in Computer Science and Engineering from the National Institute of Technology, Kurukshetra. 
                         I have experience working with clients to create custom web applications that meet their needs and exceed their expectations.
                     </p>
                     <p className='font-medium'>
                         I am excited to work with you to bring your vision to life. 
-                        Let's create something amazing together!
+                        Lets create something amazing together!
                     </p>
                 </div>
 
