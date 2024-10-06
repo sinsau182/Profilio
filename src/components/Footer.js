@@ -13,7 +13,7 @@ const Footer = () => {
                 by&nbsp; <Link href="https://portfolio.aboveall.site" className='underline
                 underline-offset-2 
                 ' target={"_blank"}
-                >ProCoders</Link>
+                >SinghSaurav</Link>
             </div>
             <Link href="https://portfolio.aboveall.site" target={"_blank"}
             className='underline
