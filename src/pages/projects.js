@@ -149,7 +149,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
                         title="Profilio"
-                        img={project4}
+                        img={project2}
                          link='https://profilio.site'
                             github='https://github.com/sinsau182/Profilio'
                             type="Featured Project"
@@ -160,7 +160,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
                         title="GoodBuys Ecommerce"
-                        img={project5}
+                        img={project2}
                          link='https://drive.google.com/file/d/1_2MdlH7Bf1WTO6TjS74l-EANuBjIinPm/view'
                             github='https://github.com/sinsau182/GoodBuys'
                             type="Featured Project"
@@ -169,7 +169,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
                         title="Sticky Notes Mobile App"
-                        img={project6}
+                        img={project2}
                          link='https://drive.google.com/file/d/1JGwF9uYVgk06uYuzKsG2mu4K9nx-cMT9/view?usp=drive_link'
                             github='https://github.com/sinsau182/StickyNotesApp'
                             type="Featured Project"
