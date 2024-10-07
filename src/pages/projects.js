@@ -7,6 +7,7 @@ import React from 'react'
 import { GithubIcon } from '@/components/Icons'
 import project1 from '../../public/projects/ExpenseTrackher.png'
 import project2 from '../../public/projects/AboveAllStrms.png'
+import project3 from '../../public/projects/StreamsAdminiora.png'
 import { motion } from 'framer-motion'
 import Transition from '@/components/Transition'
 
@@ -138,19 +139,19 @@ const projects = () => {
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
-                        title="AboveAll Streams"
-                        img={project1}
-                         link='https://aboveall.site'
-                            github='https://github.com/sinsau182/AboveAllFrontend'
+                        title="Streams Adminiora"
+                        img={project3}
+                         link='https://admin.aboveall.site'
+                            github='https://github.com/sinsau182/StreamsAdminiora'
                             type="Featured Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
-                        title="AboveAll Streams"
-                        img={project1}
-                         link='https://aboveall.site'
-                            github='https://github.com/sinsau182/AboveAllFrontend'
+                        title="Profilio"
+                        img={project4}
+                         link='https://profilio.site'
+                            github='https://github.com/sinsau182/Profilio'
                             type="Featured Project"
                         />
                     </div>
@@ -158,19 +159,19 @@ const projects = () => {
 
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
-                        title="AboveAll Streams"
-                        img={project1}
-                         link='https://aboveall.site'
-                            github='https://github.com/sinsau182/AboveAllFrontend'
+                        title="GoodBuys Ecommerce"
+                        img={project5}
+                         link='https://drive.google.com/file/d/1_2MdlH7Bf1WTO6TjS74l-EANuBjIinPm/view'
+                            github='https://github.com/sinsau182/GoodBuys'
                             type="Featured Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
-                        title="AboveAll Streams"
-                        img={project1}
-                         link='https://aboveall.site'
-                            github='https://github.com/sinsau182/AboveAllFrontend'
+                        title="Sticky Notes Mobile App"
+                        img={project6}
+                         link='https://drive.google.com/file/d/1JGwF9uYVgk06uYuzKsG2mu4K9nx-cMT9/view?usp=drive_link'
+                            github='https://github.com/sinsau182/StickyNotesApp'
                             type="Featured Project"
                         />
                     </div>
