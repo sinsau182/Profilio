@@ -5,7 +5,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
 import { GithubIcon } from '@/components/Icons'
-import project1 from '../../public/projects/AboveAllStrms.png'
+import project1 from '../../public/projects/ExpenseTrackher.png'
+import project2 from '../../public/projects/AboveAllStrms.png'
 import { motion } from 'framer-motion'
 import Transition from '@/components/Transition'
 
@@ -105,7 +106,7 @@ const projects = () => {
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12'>
                         <FeaturedProjects 
-                        title="AboveAll Streams"
+                        title="Expense Tracker"
                         img={project1}
                         summary="A video-sharing web app that showcases products with dedicated
                          video pages, offering detailed video content and robust security measures. 
@@ -114,15 +115,15 @@ const projects = () => {
                           quick access to content. Users can bookmark videos after signing up, with a 
                           navbar option for easy retrieval, and filter videos by categories displayed 
                           in the side menu bar."
-                         link='https://aboveall.site'
-                            github='https://github.com/sinsau182/AboveAllFrontend'
+                          link='https://trackexpenses.site'
+                            github='https://github.com/sinsau182/ExpenseTracker'
                             type="Featured Project"
                         />
                     </div>
                     <div className='col-span-12'>
                         <FeaturedProjects 
-                        title="AboveAll Streams"
-                        img={project1}
+                        title="Souvera Streams"
+                        img={project2}
                         summary="A video-sharing web app that showcases products with dedicated
                          video pages, offering detailed video content and robust security measures. 
                          The app features a mobile-responsive UI, a sidebar with recommended videos 
@@ -130,8 +131,8 @@ const projects = () => {
                           quick access to content. Users can bookmark videos after signing up, with a 
                           navbar option for easy retrieval, and filter videos by categories displayed 
                           in the side menu bar."
-                         link='https://aboveall.site'
-                            github='https://github.com/sinsau182/AboveAllFrontend'
+                         link='https://souvera.cloud'
+                            github='https://github.com/sinsau182/SouveraStreams'
                             type="Featured Project"
                         />
                     </div>
