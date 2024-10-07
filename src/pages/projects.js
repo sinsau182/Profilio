@@ -112,13 +112,14 @@ const projects = () => {
                         <FeaturedProjects 
                         title="Expense Tracker"
                         img={project1}
-                        summary="A video-sharing web app that showcases products with dedicated
-                         video pages, offering detailed video content and robust security measures. 
-                         The app features a mobile-responsive UI, a sidebar with recommended videos 
-                         optimized by tags for better discovery, and a user-friendly On-Key Search for
-                          quick access to content. Users can bookmark videos after signing up, with a 
-                          navbar option for easy retrieval, and filter videos by categories displayed 
-                          in the side menu bar."
+                        summary="The web application is a comprehensive platform for managing personal and
+                         business expenses, offering features like expense tracking with detailed reports 
+                         and multi-user support for managing separate profiles. It employs JWT-based authentication 
+                         for secure access to each user’s data. Deployed on AWS EC2, the app ensures scalability 
+                         and high performance, while a custom domain purchased via Hostinger, secured with SSL certificates,
+                          provides users with a professional and secure experience, enabling HTTPS for encrypted communication
+                           and protecting sensitive financial information. This solution is designed for efficient expense management
+                            with scalability and security in mind."
                           link='https://trackexpenses.site'
                             github='https://github.com/sinsau182/ExpenseTracker'
                             type="Featured Project"
