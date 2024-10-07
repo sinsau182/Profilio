@@ -117,9 +117,9 @@ const projects = () => {
                          and multi-user support for managing separate profiles. It employs JWT-based authentication 
                          for secure access to each user’s data. Deployed on AWS EC2, the app ensures scalability 
                          and high performance, while a custom domain purchased via Hostinger, secured with SSL certificates,
-                          provides users with a professional and secure experience, enabling HTTPS for encrypted communication
-                           and protecting sensitive financial information. This solution is designed for efficient expense management
-                            with scalability and security in mind."
+                         provides users with a professional and secure experience, enabling HTTPS for encrypted communication
+                         and protecting sensitive financial information. This solution is designed for efficient expense management
+                         with scalability and security in mind."
                           link='https://trackexpenses.site'
                             github='https://github.com/sinsau182/ExpenseTracker'
                             type="Featured Project"
