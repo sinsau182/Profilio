@@ -119,6 +119,22 @@ const projects = () => {
                             type="Featured Project"
                         />
                     </div>
+                    <div className='col-span-12'>
+                        <FeaturedProjects 
+                        title="AboveAll Streams"
+                        img={project1}
+                        summary="A video-sharing web app that showcases products with dedicated
+                         video pages, offering detailed video content and robust security measures. 
+                         The app features a mobile-responsive UI, a sidebar with recommended videos 
+                         optimized by tags for better discovery, and a user-friendly On-Key Search for
+                          quick access to content. Users can bookmark videos after signing up, with a 
+                          navbar option for easy retrieval, and filter videos by categories displayed 
+                          in the side menu bar."
+                         link='https://aboveall.site'
+                            github='https://github.com/sinsau182/AboveAllFrontend'
+                            type="Featured Project"
+                        />
+                    </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
                         title="AboveAll Streams"
@@ -138,22 +154,7 @@ const projects = () => {
                         />
                     </div>
 
-                    <div className='col-span-12'>
-                        <FeaturedProjects 
-                        title="AboveAll Streams"
-                        img={project1}
-                        summary="A video-sharing web app that showcases products with dedicated
-                         video pages, offering detailed video content and robust security measures. 
-                         The app features a mobile-responsive UI, a sidebar with recommended videos 
-                         optimized by tags for better discovery, and a user-friendly On-Key Search for
-                          quick access to content. Users can bookmark videos after signing up, with a 
-                          navbar option for easy retrieval, and filter videos by categories displayed 
-                          in the side menu bar."
-                         link='https://aboveall.site'
-                            github='https://github.com/sinsau182/AboveAllFrontend'
-                            type="Featured Project"
-                        />
-                    </div>
+
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
                         title="AboveAll Streams"
