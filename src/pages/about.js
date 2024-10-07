@@ -52,19 +52,19 @@ const about = () => {
             <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-                    <p className='font-small font-bold'>
+                    <p className='font-medium text-base'>
                         Hello, I am a full-stack developer passionate about creating cutting-edge web applications and deploying them to the cloud.
                          With a strong foundation in React.js and web development, I specialize in building dynamic, user-centric solutions that 
                          seamlessly integrate functionality and design. My goal is to turn ideas into reality by writing clean, efficient code and
                           leveraging modern web technologies to deliver high-performance applications.
                     </p>
-                    <p className='my-4 font-small font-bold'>
+                    <p className='my-3 font-medium text-base'>
                     Beyond web development, I have deep expertise in cloud computing and DevOps, ensuring my applications are not only scalable 
                     but also optimized for deployment. I have hands-on experience with AWS, Docker, and CI/CD pipelines, which allows me to efficiently
                      manage and automate cloud infrastructure while ensuring smooth, secure, and reliable application delivery. This combination of 
                      skills helps me build robust, scalable, and efficient systems ready to handle growing business demands.
                     </p>
-                    <p className='font-small font-bold'>
+                    <p className='font-medium text-base'>
                     With a Bachelor’s degree in Production and Industrial Engineering from the National Institute of Technology, Kurukshetra, and a proven 
                     track record of working with clients to build custom web solutions, I am dedicated to exceeding expectations. I look forward to collaborating
                      with you to bring your vision to life, combining innovation, technology, and cloud expertise to create something extraordinary. 
@@ -72,7 +72,7 @@ const about = () => {
                     </p>
                 </div>
 
-                <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid 
+                <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid my-auto
                             border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
                     <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
                     <Image src={picSir} alt="ProCoders" className='w-full h-auto rounded-2xl'
