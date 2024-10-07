@@ -52,7 +52,7 @@ const about = () => {
             <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-                    <p className='font-large'>
+                    <p className='font-medium'>
                         Hello, I am a full-stack developer passionate about creating cutting-edge web applications and deploying them to the cloud.
                          With a strong foundation in React.js and web development, I specialize in building dynamic, user-centric solutions that 
                          seamlessly integrate functionality and design. My goal is to turn ideas into reality by writing clean, efficient code and
