@@ -53,7 +53,7 @@ const about = () => {
                 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                     <p className='font-medium'>
-                        I am a full-stack developer with a passion for creating innovative web applications. 
+                        I am a full-stack developer with a passion for creating innovative web applications and sending them to cloud. 
                         I am dedicated to turning ideas into reality with code and design. 
                         I have a strong foundation in React.js and web development, and I am always looking to learn new technologies and frameworks.
                     </p>
