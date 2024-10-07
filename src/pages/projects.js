@@ -9,7 +9,8 @@ import project1 from '../../public/projects/ExpenseTrackher.png'
 import project2 from '../../public/projects/AboveAllStrms.png'
 import project3 from '../../public/projects/StreamsAdminiora.png'
 import project4 from '../../public/projects/Profilio.png'
-import project5 from '../../public/projects/GoodBuys.png'
+import project5 from '../../public/projects/GoodBuysApp.png'
+import project6 from '../../public/projects/StickyNotesApp.png'
 import { motion } from 'framer-motion'
 import Transition from '@/components/Transition'
 
@@ -171,7 +172,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
                         title="Sticky Notes Mobile App"
-                        img={project2}
+                        img={project6}
                          link='https://drive.google.com/file/d/1JGwF9uYVgk06uYuzKsG2mu4K9nx-cMT9/view?usp=drive_link'
                             github='https://github.com/sinsau182/StickyNotesApp'
                             type="Featured Project"
