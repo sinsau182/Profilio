@@ -8,6 +8,8 @@ import { GithubIcon } from '@/components/Icons'
 import project1 from '../../public/projects/ExpenseTrackher.png'
 import project2 from '../../public/projects/AboveAllStrms.png'
 import project3 from '../../public/projects/StreamsAdminiora.png'
+import project4 from '../../public/projects/Profilio.png'
+import project5 from '../../public/projects/GoodBuys.png'
 import { motion } from 'framer-motion'
 import Transition from '@/components/Transition'
 
@@ -149,7 +151,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
                         title="Profilio"
-                        img={project2}
+                        img={project4}
                          link='https://profilio.site'
                             github='https://github.com/sinsau182/Profilio'
                             type="Featured Project"
@@ -160,7 +162,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Projects 
                         title="GoodBuys Ecommerce"
-                        img={project2}
+                        img={project5}
                          link='https://drive.google.com/file/d/1_2MdlH7Bf1WTO6TjS74l-EANuBjIinPm/view'
                             github='https://github.com/sinsau182/GoodBuys'
                             type="Featured Project"
