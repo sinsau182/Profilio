@@ -10,12 +10,12 @@ const Footer = () => {
             <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
             <div className='flex items-center lg:py-2'>
             Build With <span className='text-primary dark:text-primaryDark text-2xl px-1'>&#9825;</span>
-                by&nbsp; <Link href="https://portfolio.aboveall.site" className='underline
+                by&nbsp; <Link href="https://www.linkedin.com/in/saurav-singh-15320a218/" className='underline
                 underline-offset-2 
                 ' target={"_blank"}
                 >SinghSaurav</Link>
             </div>
-            <Link href="https://portfolio.aboveall.site" target={"_blank"}
+            <Link href="/" target={"_blank"}
             className='underline
                 underline-offset-2'
             >Say hello</Link>
