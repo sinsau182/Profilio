@@ -15,8 +15,7 @@ const Footer = () => {
                 ' target={"_blank"}
                 >SinghSaurav</Link>
             </div>
-            <Link href="https://wa.me/+91-8825398529?text=Hey%20Saurav%2C%20your%20work%20interests%20me.%20Let%27s%20connect%21
-" target={"_blank"}
+            <Link href="https://wa.me/+91-8825398529?text=Hey%20Saurav%2C%20your%20work%20interests%20me.%20Let%27s%20connect%21" target={"_blank"}
             className='underline
                 underline-offset-2'
             >Say hello</Link>
