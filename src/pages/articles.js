@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import React, { useRef } from 'react'
-import article1 from '../../public/articles/pagination component in reactjs.jpg'
+import article1 from '../../public/articles/article2.png'
 import article2 from '../../public/articles/create loading screen in react js.jpg'
 import { motion, useMotionValue } from 'framer-motion'
 import article3 from '../../public/articles/create modal component in react using react portals.png'
@@ -44,7 +44,7 @@ const MovingImg = ({ img, title, link }) => {
             style={{ x: x, y: y }}
             initial={{opacity: 0}}
             whileInView={{opacity: 1, transition: {duration: 0.2}}}
-            ref={imageRef} src={img} alt={title} className='z-10 w-96 h-auto rounded-lg hidden absolute md:!hidden' />
+            ref={imageRef} src={img} alt={title} className='w-96 h-auto rounded-lg hidden absolute md:!hidden' />
         </Link>
     )
 }
@@ -57,7 +57,7 @@ const Articles = ({ img, title, date, link }) => {
         viewport={{once: true}}
         className='relative w-full p-4 py-6 my-4 rounded-xl flex items-center 
         justify-between bg-light text-dark first:mt-0 border border-solid border-dark
-        border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light sm:flex-col
+        border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light sm:flex-col 
         '>
             <MovingImg img={img} title={title} link={link} />
             <span className='text-primary font-semibold pl-4 dark:text-primaryDark sm:self-start sm:pl-0 xs:text-sm'>{date}</span>
@@ -98,7 +98,7 @@ const articles = () => {
     return (
         <>
             <Head>
-                <title>Articles Page | ProCoders</title>
+                <title>Articles Page | Saurav</title>
                 <meta name="description" content="any description" />
             </Head>
             <Transition />
@@ -111,7 +111,7 @@ const articles = () => {
                             summary="Learn how to build a custom pagination component in ReactJS from scratch. 
                     Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
                             time='9 min read'
-                            link="https://medium.com"
+                            link="https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/#:~:text=In%20this%20post,%20we%20will%20focus%20on%20pagination"
                             img={article1} />
 
                         <FeaturedArticles
@@ -119,14 +119,14 @@ const articles = () => {
                             summary="Learn how to build a custom pagination component in ReactJS from scratch. 
                     Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
                             time='9 min read'
-                            link="https://medium.com"
+                            link="https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/#:~:text=In%20this%20post,%20we%20will%20focus%20on%20pagination"
                             img={article2} />
                     </ul>
 
                     <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
                     <ul>
                         <Articles
-                            title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
+                            title='The One Writing Skill That Jumpstarted My Freelancing Career'
                             date="July 12, 2021"
                             link="https://medium.com"
                             img={article3} />

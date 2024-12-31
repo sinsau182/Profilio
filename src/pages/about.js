@@ -42,7 +42,7 @@ const about = () => {
   return (
     <>
         <Head>
-            <title>About Me | ProCoders</title>
+            <title>About Me | Saurav</title>
             <meta name="description" content="any description" />
         </Head>
         <Transition />

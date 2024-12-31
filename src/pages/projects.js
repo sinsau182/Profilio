@@ -98,7 +98,7 @@ const projects = () => {
   return (
     <>
         <Head>
-            <title>Projects | ProCoders</title>
+            <title>Projects | Saurav</title>
             <meta name="description" content="any description" />
         </Head>
         <Transition />
