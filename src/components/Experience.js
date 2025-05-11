@@ -50,10 +50,23 @@ const Experience = () => {
             md:w-[2px] md:left-[30px] xs:left-[20px]' />
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+
+            <Details 
+                position="Software Engineer" company="MEDHIR"
+                companyLink="https://dawdle.live"
+                duration="Jan 2025 - Present" address="Sarjapur Road, Bangalore"
+                work="I’ve worked across multiple domains in software development — from Android development
+                 and frontend web technologies to backend frameworks for enterprise-scale systems. I've also gained 
+                 experience with containerization tools like Podman and have contributed to building CI/CD pipelines using Jenkins.
+                  Currently, I’m focused on building MEDHIR, a platform designed to empower and provide infrastructure for establishing
+                   and scaling MSMEs (Micro, Small, and Medium Enterprises)."
+
+                />
+
                 <Details 
                 position="Software Engineer" company="Dawdle.live"
                 companyLink="https://dawdle.live"
-                duration="Aug 2024 - Present" address="Remote"
+                duration="Aug 2024 - Oct 2024" address="Remote"
                 work="Solely developed a video-sharing application from scratch,
                  managing the project from conception to AWS EC2 deployment, successfully
                   launching it with 5,000+ active users and a custom domain, boost engagement
